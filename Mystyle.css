@@ -1,0 +1,13 @@
+body{
+    margin-left: 0px;
+    padding-left: 0%;
+    background-color: rgb(134, 8, 8);
+}
+.jumbotron{
+    color:rgb(134, 8, 8);
+    font-size:40px;
+    text-align: center;
+}
+.jumbotron h2{
+    font-size:40px;
+}
