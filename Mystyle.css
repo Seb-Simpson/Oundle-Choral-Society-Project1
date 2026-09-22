@@ -1,13 +1,57 @@
 body{
     margin-left: 0px;
     padding-left: 0%;
-    background-color: rgb(134, 8, 8);
+    background-color: #ffffff;
 }
 .jumbotron{
-    color:rgb(134, 8, 8);
-    font-size:40px;
+    background-color:white;
     text-align: center;
-}
-.jumbotron h2{
     font-size:40px;
+}
+.AboutSociety {
+    background-color:white;
+    color:#a51f2f;
+    margin-bottom: 7%;
+    margin-right: 7%;
+    margin-left: 7%;
+}
+.AboutSociety h2{
+    text-align:center;
+    font-size:40px;
+}
+.AboutSociety p{
+    text-align: left;
+    color:black;
+    font-size: 16px;
+}
+.container-fluid{
+    text-align:center;
+    color:#a51f2f;
+}
+.Forthcoming-Concert{
+    text-align: center;
+    background-color: #a51f2fe9;
+    color: #ffffff;
+    padding-bottom:7%;
+    padding-top:4%;
+}
+.Forthcoming-Concert h2{
+    font-size:40px;
+}
+.Forthcoming-Concert p{
+    font-size:32px;
+    margin-left:5%;
+    margin-right:5%;
+    margin-top:2%;
+}
+.imagerotator{
+background-color: #ffffff;
+}
+.Photos {
+    text-align:center;
+    padding:7%;
+    color:#a51f2f;
+}
+.Photos h2{
+    font-size: 40px;
 }
