@@ -10,12 +10,34 @@
     <link rel="stylesheet" href="Mystyle.css">
 </head>
 <body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">
+        <img src="ocs.png" width="200px" height="60px">
+      </a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about" class="btn btn-link">About Us</a></li>
+        <li><a href="#concert" class="btn btn-link">Concert & Events</a></li>
+        <li><a href="#photo">Members</a></li>
+        <li><a href="#pricing">Music</a></li>
+        <li><a href="#contact">Contact us</a></li>
+      </ul>
+    </div>
+    </nav>
     <div class="imagerotator">
         <img src="Image1.png" width="100%">
     </div>
     <div class="jumbotron">
     </div>
-    <div class="AboutSociety">
+    <div class="AboutSociety" id="about">
         <h2><B>Welcome to the Oundle & District Choral Society</B></h2>
         <p>We are a mixed voice choir who have been in existence for over 100 years. We draw our membership from a fairly wide rural area and currently have approximately seventy voices who meet for rehearsals <b>every Monday during term time.</b></p>
         &nbsp;
@@ -26,13 +48,13 @@
            
         
     </div>
-    <div class="Forthcoming-Concert">
+    <div class="Forthcoming-Concert" id="concert">
         <h2><b>Forthcoming Concert</b></h2>
         <p><b>We will be rehearsing for a French choral Christmas concert which will include
             Messe de minuit pour Noël by Marc-Antoine Charpentier and
             Oratorio de Noël by Saint-Saëns.</b></p>
             </div>
-    <div class="PhotoVideo">
+    <div class="PhotoVideo" id="photo">
         <h2><b>Recent Photos and Videos</b></h2>
         <div class="Photos">
         <div class="row">
@@ -48,14 +70,47 @@
             <div class="col-sm-3">
                 <img src="Errormsg.png" width="250px" height="150px">
             </div>
-            <div class="row">
+            &nbsp;
+            <div class="img">
+                <div class="row">
                 <div class="col-sm-3">
-                    <img src=""
+                    <img src="Choir 1.png" width="225px" height="150px">
                 </div>
+            <div class="col-sm-3">
+                <img src="Orchestra 1.png" width="225px" height="150px">
+            </div>
+            <div class="col-sm-3">
+                <img src="Audience.png" width="225px" height="150px">
+            </div>
+            <div class="col-sm-3">
+                <img src="Trumpet 1.png" width="225px" height="150px"> 
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
             </div>
             </div>
     </div>
-    <div class="container-fluid">
+    <div class="upcoming">
+        <h2>Previous Concerts and Events</h2>
+        <div class="row">
+            <div class="col-sm-3">
+                <img src="Music Man1.jpg"width="225px" height="350px">
+            </div>
+            <div class="col-sm-3">
+                <img src="Music Man2.jpg"width="225px" height="350px">
+            </div>
+            <div class="col-sm-3">
+                <img src="Music Man3.jpg"width="225px" height="350px">
+            </div>
+            <div class="col-sm-3">
+                <img src="Music Man4.png" width="225px" height="350px">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" id="contact">
         <h2><b>Contact Us</b></h2>
         <p>Tessa Leuchars - Chair</p>
         &nbsp;
@@ -63,7 +118,7 @@
         &nbsp;
         <p>Tessa Leuchars - Website</p>
         <div class="input-group-btn">
-            <button type = "button" class="btn btn-danger">Privacy Policy</button>
+            <button type = "button" class="btn btn-info">Privacy Policy</button>
         </div>
     </div>
 </body>
