@@ -29,6 +29,7 @@ body{
     text-align:center;
     color:#a51f2f;
     padding-bottom: 5%;
+    padding-top:5%;
 }
 .Forthcoming-Concert{
     text-align: center;
@@ -93,4 +94,28 @@ background-color: #ffffff;
 
 .navbar-collapse {
     background-color: #a51f2fe9 !important;
+}
+.container-fluid img{
+    padding-top: 3%;
+}
+.container-fluid a{
+    color:#a51f2f;
+    font-size:16px;
+}
+.container-fluid p{
+    color: black;
+}
+.container-fluid button{
+    margin-top:3%;
+}
+.container-fluid h2{
+    font-size: 40px;
+    padding-bottom: 2%;
+}
+.members{
+    background-color:#ffffff;
+    text-align: center;
+}
+.members img{
+    padding:5%;
 }
