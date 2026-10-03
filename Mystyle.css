@@ -115,7 +115,27 @@ background-color: #ffffff;
 .members{
     background-color:#ffffff;
     text-align: center;
+    padding-top:3%;
 }
 .members img{
-    padding:5%;
+    text-align: center;
+    padding:6%;
+}
+.members h2{
+    color: #a51f2f;
+    font-size: 40px;
+    padding-bottom:3%
+}
+.members h1{
+    color: #a51f2f;
+    font-size:40px;
+}
+.narrow {
+    width:60%;
+}
+.members p{
+    font-size: larger;
+}
+.members h3{
+    color:#a51f2f;
 }
