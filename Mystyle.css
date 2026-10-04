@@ -10,6 +10,7 @@ body{
     font-size:40px;
 }
 .AboutSociety {
+    scroll-margin-top: 90px;
     background-color:white;
     color:#a51f2f;
     margin-bottom: 7%;
@@ -32,6 +33,7 @@ body{
     padding-top:5%;
 }
 .Forthcoming-Concert{
+    scroll-margin-top: 60px;
     text-align: center;
     background-color: #a51f2fe9;
     color: #ffffff;
@@ -113,6 +115,7 @@ background-color: #ffffff;
     padding-bottom: 2%;
 }
 .members{
+    scroll-margin-top:60px;
     background-color:#ffffff;
     text-align: center;
     padding-top:3%;
@@ -139,4 +142,38 @@ background-color: #ffffff;
 }
 .members h3{
     color:#a51f2f;
+}
+.Quotes h2{
+    color:#a51f2f;
+    text-align:center;
+    font-size:30px;
+}
+.Quotes h4{
+    text-align:left;
+    padding-left: 20%;
+    padding-right:20%;
+    font-size:20px
+    
+}
+.Quotes h6{
+    text-align:left;
+    padding-left:20%;
+    font-size: 15px;
+    color:grey
+}
+.Music {
+    scroll-margin-top:60px;
+    background-color: #a51f2f;
+    padding-left: 5%;
+    padding-bottom: 3%;
+}
+.Music h1{
+    color:#ffffff;
+    padding-top: 5%;
+    padding-bottom: 3%
+}
+.Music h6{
+    color:#ffffff;
+    padding-bottom: 2%;
+    font-size:110%;
 }
