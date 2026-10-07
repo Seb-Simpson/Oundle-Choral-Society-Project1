@@ -9,7 +9,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="Mystyle.css">
 </head>
-<body style="padding-top:60px;">
+<body style="padding-top:60px;" data-spy="scroll" data-target=".navbar" data-offset="80 ">
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
     <div class="navbar-header">
@@ -32,11 +32,48 @@
       </ul>
     </div>
     </nav>
-    <div class="imagerotator">
-        <img src="Image1.png" width="100%">
+    <div id = "ImageCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target = "#ImageCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#ImageCarousel" data-slide-to="1"></li>
+            <li data-target="#ImageCarousel" data-slide-to="2"></li>
+            <li data-target="#ImageCarousel" data-slide-to="3"></li>
+            <li data-target="#ImageCarousel" data-slide-to="4"></li>
+            <li data-target="#ImageCarousel" data-slide-to="5"></li>
+            <li data-target="#ImageCarousel" data-slide-to="6"></li>
+            <li data-target="#ImageCarousel" data-slide-to="7"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="Image1.png" width="100%">
+            </div>
+            <div class="item">
+                <img src="Image2.png" width="100%">
+            </div>
+            <div class="item">
+                <img src="Image3.png" width="100%">
+            </div>
+            <div class="item">
+                <img src="Image4.png" width="100%">
+            </div>
+            <div class="item">
+                <img src="Image5.png" width="100%">
+            </div>
+            <div class="item">
+                <img src="Image6.png" width="100%">
+            </div>
+            <div class="item">
+                <img src="Image7.png" width="100%">
+            </div>
+            <div class="item">
+                <img src="Image8.png" width="100%">
+            </div>
+        </div>
     </div>
-    <div class="jumbotron">
-    </div>
+</div>
+    <marquee>
+        <h2 class="marquee">We are now on Summer Break. The new term will start on Monday 7th September</h2>
+    </marquee>
     <div class="AboutSociety" id="about">
         <h2><B>Welcome to the Oundle & District Choral Society</B></h2>
         <p>We are a mixed voice choir who have been in existence for over 100 years. We draw our membership from a fairly wide rural area and currently have approximately seventy voices who meet for rehearsals <b>every Monday during term time.</b></p>
@@ -224,7 +261,7 @@
         <a href="mailto:tleuchars@btinternet.com">Tessa Leuchars - Website</a>
         &nbsp;
         <div class="input-group-btn">
-            <button type = "button" class="btn btn-info">Privacy Policy</button>
+            <button type = "button" class="btn btn-info" data-toggle="modal" data-target="Privacy3">Privacy Policy</button>
         </div>
         <img src="j89ol;]'.png" width="40%" height="18%">
     </div>
